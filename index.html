@@ -76,7 +76,7 @@
             </div>
         </nav>
         <!-- slider or carousel -->
-        <div class="relative h-[550px] carousel w-full mb-24">
+        <div class="relative lg:h-[550px] carousel mb-20 ">
             <div id="slide1" class="carousel-item relative w-full">
                 <img src="images/1.png" class="w-full" />
                 <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
@@ -99,7 +99,7 @@
                 </div>
             </div>
             <!-- black badge -->
-            <div class=" absolute bottom-5 right-5 bg-black rounded-2xl w-[566px] p-8 space-y-4">
+            <div class="absolute lg:bottom-5 lg:right-5 bg-black rounded-2xl lg:w-[566px] p-8 space-y-4">
                 <h4 class="text-white font-extrabold text-2xl">Meet all the heroes from the field</h4>
                 <p class="text-white opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis
                     placerat dolor. Purus urna in sit nullam proin. </p>
@@ -108,35 +108,397 @@
     </header>
     <main class="container mx-auto">
         <!-- Professional Hockey club -->
-        <section class="mb-24">
-            <div class="w-[600px] text-center mx-auto space-y-5">
+        <section class="mb-20 p-3">
+            <div class="text-center mx-auto space-y-5 border-t-2 border-b-2 border-dotted p-5">
                 <h3 class="text-4xl font-extra-bold">Professional Hockeys Club</h3>
-                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis  placerat dolor. Purus urna in sit nullam proin. 
+                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br> dolor. Purus urna in sit nullam proin.
                 </p>
             </div>
             <!-- radial progress -->
-            <div class="flex flex-col lg:flex-row justify-between mt-12 gap-2">
-                <div class="space-y-4 text-center">
-                    <div class="radial-progress text-red-500 font-extrabold text-xl " style="--value:87;" role="progressbar">87%</div>
+            <div class="flex flex-col lg:flex-row lg:justify-between mt-12 gap-2">
+                <div class="space-y-4 text-center mb-4">
+                    <div class="radial-progress text-red-500 font-extrabold text-xl " style="--value:87;"
+                        role="progressbar">87%</div>
                     <h4 class="font-semibold text-xl">Prayer Facility</h4>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                    <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="space-y-4 text-center">
-                    <div class="radial-progress text-green-400 font-extrabold text-xl " style="--value:95;" role="progressbar">95%</div>
-                    <h4 class="font-semibold text-xl">Prayer Facility</h4>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="space-y-4 text-center mb-4">
+                    <div class="radial-progress text-green-400 font-extrabold text-xl " style="--value:95;"
+                        role="progressbar">95%</div>
+                    <h4 class="font-semibold text-xl">Experienced Coach</h4>
+                    <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="space-y-4 text-center">
-                    <div class="radial-progress text-orange-400 font-extrabold text-xl " style="--value:90;" role="progressbar">90%</div>
-                    <h4 class="font-semibold text-xl">Prayer Facility</h4>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="space-y-4 text-center mb-4">
+                    <div class="radial-progress text-orange-400 font-extrabold text-xl " style="--value:90;"
+                        role="progressbar">90%</div>
+                    <h4 class="font-semibold text-xl">Senior Player</h4>
+                    <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
-                <div class="space-y-4 text-center ">
-                    <div class="radial-progress text-blue-500 font-extrabold text-xl " style="--value:80;" role="progressbar">80%</div>
-                    <h4 class="font-semibold text-xl">Prayer Facility</h4>
-                    <p>Amet consectetur. Condimentum dignissim adipiscing .</p>
+                <div class="space-y-4 text-center mb-4">
+                    <div class="radial-progress text-blue-500 font-extrabold text-xl " style="--value:80;"
+                        role="progressbar">80%</div>
+                    <h4 class="font-semibold text-xl">Training Ground</h4>
+                    <p class="opacity-60">Amet consectetur. Condimentum dignissim adipiscing .</p>
                 </div>
+            </div>
+        </section>
+        <!-- program section -->
+        <section class="mb-20 p-3">
+            <div class="text-center mx-auto space-y-5 border-t-2 border-b-2 border-dotted p-5">
+                <h3 class="text-4xl font-extra-bold">Program Sections</h3>
+                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br> dolor. Purus urna in sit nullam proin.
+                </p>
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-5 m-12 ">
+                <div class="hero lg:h-[400px] rounded-xl" style="background-image: url('/Images/2.png');">
+                    <div class=" hero-overlay bg-opacity-50 rounded-xl"></div>
+                    <div class="hero-content text-white">
+                        <div class="text-left lg:pt-24">
+                            <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.
+                            </p>
+                            <button class="btn bg-color-primary text-white font-bold text-xl border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero rounded-xl" style="background-image: url('/Images/3.png');">
+                    <div class=" hero-overlay bg-opacity-50 rounded-xl"></div>
+                    <div class="hero-content text-white lg:pt-24">
+                        <div class="text-left">
+                            <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.
+                            </p>
+                            <button class="btn bg-color-primary text-white font-bold text-xl border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero rounded-xl lg:col-span-2 lg:h-[500px]" style="background-image: url('/Images/4.png');">
+                    <div class=" hero-overlay bg-opacity-50 rounded-xl"></div>
+                    <div class="hero-content text-white  lg:pt-44 lg:pr-[500px]">
+                        <div class="text-left">
+                            <h1 class="mb-5 text-3xl font-extrabold">Junior Program</h1>
+                            <p class="mb-5">
+                                Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit
+                                enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor
+                                congue sed et in.
+                            </p>
+                            <button class="btn bg-color-primary text-white font-bold text-xl border-none">Register
+                                Now!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+
+        </section>
+        <!-- our new products -->
+        <section class="mb-20 p-3">
+            <div class="text-center mx-auto space-y-5 border-t-2 border-b-2 border-dotted p-5 mb-10">
+                <h3 class="text-4xl font-extra-bold">Our New Products</h3>
+                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br> dolor. Purus urna in sit nullam proin.
+                </p>
+            </div>
+            <!-- cards container -->
+            <div class=" grid grid-cols-1 md:grid-cols-2 gap-5">
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/5.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/6.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/7.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">Hockey Helmet</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/8.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">Hockey Jersey</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/9.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">Hockey Helmet</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-side bg-base-100 border-2">
+                    <figure class="pl-3">
+                        <img src="images/10.png" alt="jacket" />
+                    </figure>
+                    <div class="card-body">
+                        <div class="flex gap-5">
+                            <div class="flex items-center gap-3">
+                                <i class="fa-solid fa-star text-yellow-500"></i>
+                                <p class="opacity-60">5.0</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-eye"></i>
+                                <p class="opacity-60">20</p>
+                            </div>
+                            <div class="flex items-center gap-3">
+                                <i class="fa-regular fa-heart"></i>
+                                <p class="opacity-60">200</p>
+                            </div>
+                        </div>
+                        <h2 class="card-title">World Cup Flags Football</h2>
+                        <p class="opacity-60">Click the button to watch on Jetflix app.</p>
+                        <div class="flex items-center gap-2 mt-2">
+                            <p class="text-red-600">Price - $22.00</p>
+                            <i class="fa-solid fa-cart-shopping opacity-60"></i>
+                            <p class="opacity-60">Delivery Fee : Free</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--FAQ  -->
+        <section class="mb-20 p-3">
+            <div class="text-center mx-auto space-y-5 border-t-2 border-b-2 border-dotted p-5 mb-10">
+                <h3 class="text-4xl font-extra-bold">Clients Question</h3>
+                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br> dolor. Purus urna in sit nullam proin.
+                </p>
+            </div>
+            <div class="flex border-2 rounded-xl gap-5 p-5">
+                <div>
+                    <img src="Images/11.png" alt="">
+                </div>
+                <div class="flex-1">
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" checked="checked" />
+                        <div class="collapse-title text-xl font-medium">Our Equipment</div>
+                        <div class="collapse-content">
+                            <p>Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit enim sagittis turpis in
+                                magna.</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" />
+                        <div class="collapse-title text-xl font-medium">Hockey Training</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" />
+                        <div class="collapse-title text-xl font-medium">Private Lessons</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" />
+                        <div class="collapse-title text-xl font-medium">Ski Touring</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" />
+                        <div class="collapse-title text-xl font-medium">Booking</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                    <div class="collapse collapse-plus border-b-2 rounded-none">
+                        <input type="radio" name="my-accordion-6" />
+                        <div class="collapse-title text-xl font-medium">Pricings</div>
+                        <div class="collapse-content">
+                            <p>hello</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- get-in-touch -->
+        <section class="mb-20 p-3">
+            <div class="text-center mx-auto space-y-5 border-t-2 border-b-2 border-dotted p-5 mb-10">
+                <h3 class="text-4xl font-extra-bold">Get In Touch</h3>
+                <p class="opacity-60">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat
+                    <br> dolor. Purus urna in sit nullam proin.
+                </p>
+            </div>
+            <div class="flex gap-8">
+                <div class="space-y-5 border-2 p-6">
+                    <div class="card bg-lime-50 w-96 ">
+                        <div class="card-body">
+                            <img class="w-12 h-12" src="Images/Group 1171275317.png" alt="">
+                            <p class="opacity-60">Phone Number : </p>
+                            <h2 class="card-title">(+62) 123-321-543</h2>
+                        </div>
+                    </div>
+                    <div class="card bg-orange-50 w-96 ">
+                        <div class="card-body">
+                            <img class="w-12 h-12" src="Images/Group 1171275318.png" alt="">
+                            <p class="opacity-60">Email : </p>
+                            <h2 class="card-title">hockeys@support.com</h2>
+                        </div>
+                    </div>
+                    <div class="card bg-blue-50 w-96 ">
+                        <div class="card-body">
+                            <img class="w-12 h-12" src="Images/Group 1171275319.png" alt="">
+                            <p class="opacity-60">Location : </p>
+                            <h2 class="card-title">152/1 Mohakhali Wireless Gate</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid grid-cols-2 flex-1">
+                    <label class="form-control ">
+                        <span class="text-xl font-bold mb-2">Your Name</span>
+                        <input type="text" placeholder="Enter your full -name"
+                            class="input w-full max-w-xs  bg-gray-100" />
+                    </label>
+                    <label class="form-control ">
+                        <span class="text-xl font-bold mb-2">Your E-mail</span>
+                        <input type="text" placeholder="Enter your e-mail" class="input w-full max-w-xs  bg-gray-100" />
+                    </label>
+                    <label class="form-control ">
+                        <span class="text-xl font-bold mb-2">Subject</span>
+                        <input type="text" placeholder="Enter your subject"
+                            class="input w-full max-w-xs  bg-gray-100" />
+                    </label>
+                    <label class="form-control">
+                        <span class="text-xl font-bold mb-2">Your Phone Number</span>
+                        <input type="text" placeholder="Enter your phone number"
+                            class="input w-full max-w-xs  bg-gray-100" />
+                    </label>
+                    <label class="form-control col-span-2 ">
+                        <span class="text-xl font-bold mb-2">Message</span>
+                        <textarea class="textarea textarea-bordered h-28 bg-gray-100" placeholder="Write your message"></textarea>
+                    </label>
+                    <button class="btn col-span-2 bg-color-primary">Button</button>
+                </div>
             </div>
 
         </section>
